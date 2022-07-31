@@ -218,9 +218,9 @@ export default defineComponent({
           containLabel: true,
         },
         {
-          left: 0,
+          left: "4.1%",
           top: 495,
-          width: "100%",
+          width: "95.9%",
           height: 140,
           containLabel: true,
         },
@@ -241,7 +241,11 @@ export default defineComponent({
           data: [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
           boundaryGap: true,
           axisLine: {
-            show: false,
+            show: true,
+            lineStyle: {
+              width: 1,
+              color: "#94a3b8",
+            },
           },
           axisTick: {
             show: false,
@@ -261,6 +265,13 @@ export default defineComponent({
           type: "category",
           data: [46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60],
           boundaryGap: true,
+          axisLine: {
+            show: true,
+            lineStyle: {
+              width: 1,
+              color: "#94a3b8",
+            },
+          },
           axisTick: {
             alignWithLabel: true,
           },
