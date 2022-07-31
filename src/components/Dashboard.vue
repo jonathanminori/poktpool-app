@@ -415,7 +415,11 @@ export default defineComponent({
         <div class="flex">
           <div class="flex-shrink-0 flex items-center">
             <h1 class="sr-only text-xl font-bold">poktpool</h1>
-            <img src="poktpool.webp" class="h-7 mt-1" alt="poktpool" />
+            <img
+              src="../assets/poktpool.webp"
+              class="h-7 mt-1"
+              alt="poktpool"
+            />
           </div>
         </div>
         <div class="flex items-center">
@@ -1431,7 +1435,7 @@ export default defineComponent({
           <li><a href="#" class="text-slate-900">Privacy Policy</a></li>
         </ul>
       </div>
-      <img src="coincover.webp" class="block h-16" />
+      <img src="../assets/coincover.webp" class="block h-16" />
     </div>
   </footer>
 </template>
