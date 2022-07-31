@@ -70,8 +70,8 @@ export default defineComponent({
           gross_rewards: 144.78,
           fees: 7.24,
           net_rewards: 137.54,
-          injection: 0,
-          unstake: 2000.0,
+          injection: 2000.0,
+          unstake: 0.0,
           sweeps: 0,
         },
         {
@@ -180,8 +180,8 @@ export default defineComponent({
           gross_rewards: 149.18,
           fees: 7.46,
           net_rewards: 141.72,
-          injection: 1000.0,
-          unstake: 0,
+          injection: 0,
+          unstake: 1000.0,
           sweeps: 0,
         },
         {
@@ -901,7 +901,7 @@ export default defineComponent({
                 aria-expanded="true"
                 aria-haspopup="true"
               >
-                Tranche 48
+                Tranche 46
                 <!-- Heroicon name: solid/chevron-down -->
                 <svg
                   class="-mr-1 ml-2 h-5 w-5"
